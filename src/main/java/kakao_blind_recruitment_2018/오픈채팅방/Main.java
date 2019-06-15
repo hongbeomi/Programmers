@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        String[] status = { "Enter uid123 Muzi",
-                "Enter uid456 Prodo",
-                "Leave uid123",
-                "Enter uid123 Prodo",
-                "Change uid456 Ryan" };
+        String[] status = { "Enter uid1234 Muzi",
+                "Enter uid4567 Prodo",
+                "Leave uid1234",
+                "Enter uid1234 Prodo",
+                "Change uid4567 Ryan" };
         Solution sol = new Solution();
 
         System.out.println(Arrays.toString(sol.solution(status)));
