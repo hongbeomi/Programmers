@@ -1,4 +1,4 @@
-package level2.스킬트리;
+package wintercoding_2018.스킬트리;
 
 public class Main {
 
