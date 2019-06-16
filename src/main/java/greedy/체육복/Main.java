@@ -1,4 +1,4 @@
-package level1.체육복;
+package greedy.체육복;
 
 public class Main {
 
