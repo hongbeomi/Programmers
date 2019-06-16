@@ -1,4 +1,4 @@
-package wintercoding_2018.스킬트리;
+package winter_coding_2018.스킬트리;
 
 public class Solution {
 
