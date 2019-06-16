@@ -1,5 +1,4 @@
 language: java
-script: "make test"
-branches:
-  only:
-    - master
+jdk: oraclejdk8
+before_install:
+  - chmod +x mvnw
