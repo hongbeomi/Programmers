@@ -8,7 +8,7 @@ public class Main {
 
         Solution sol = new Solution();
 
-        System.out.println(sol.solution(skill, skillList));
+        System.out.print(sol.solution(skill, skillList));
     }
 
 }
