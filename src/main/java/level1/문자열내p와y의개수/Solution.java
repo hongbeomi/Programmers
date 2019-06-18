@@ -12,11 +12,10 @@ public class Solution {
 
         str = s.split("");
 
-        for (int i = 0; i < str.length; i++) {
-            if(str[i].equalsIgnoreCase(p)) {
+        for (String value : str) {
+            if (value.equalsIgnoreCase(p)) {
                 pCounter++;
-            }
-            else if(str[i].equalsIgnoreCase(y)){
+            } else if (value.equalsIgnoreCase(y)) {
                 yCounter++;
             }
         }

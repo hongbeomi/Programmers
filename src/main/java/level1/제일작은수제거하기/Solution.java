@@ -9,8 +9,8 @@ public class Solution {
 
         ArrayList<Integer> array = new ArrayList<>();
 
-        for (int i = 0; i < arr.length; i++) {
-            array.add(arr[i]);
+        for (int value : arr) {
+            array.add(value);
         }
 
         array.remove(Collections.min(array));

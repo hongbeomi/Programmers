@@ -5,7 +5,7 @@ public class Solution {
     boolean solution(String s) {
         boolean answer = true;
 
-        answer = ((s.length() == 4 || s.length() == 6) && checkNum(s) == true ) ? true : false;
+        answer = (s.length() == 4 || s.length() == 6) && checkNum(s);
 
         return answer;
     }

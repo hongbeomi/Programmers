@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         String[] strs = {"sun","bed","car"};
-        int n = 1;
+        int n = 2;
         Solution sol = new Solution();
 
         for (int i = 0; i < strs.length; i++) {
