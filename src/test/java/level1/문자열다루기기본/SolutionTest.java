@@ -30,4 +30,16 @@ public class SolutionTest {
 
         Assert.assertThat(answer, CoreMatchers.is(test));
     }
+
+    @Test
+    public void checkNumTrue() {
+        String s = "133";
+        boolean test;
+        boolean answer = true;
+
+        test = Solution.checkNum(s);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+    }
+
 }

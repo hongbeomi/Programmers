@@ -19,6 +19,17 @@ public class SolutionTest {
         s = sol.solution(num);
 
         Assert.assertThat(answer, CoreMatchers.is(s));
+    }
 
+    @Test
+    public void solution1() {
+        int num = 7;
+        String s;
+        String answer = "Odd";
+
+        Solution sol = new Solution();
+        s = sol.solution(num);
+
+        Assert.assertThat(answer, CoreMatchers.is(s));
     }
 }

@@ -19,4 +19,17 @@ public class SolutionTest {
 
         Assert.assertThat(answer, CoreMatchers.is(test));
     }
+
+    @Test
+    public void solution1() {
+        int[] A = { 1, 2, 2};
+        int test;
+        int answer = 1;
+
+        Solution sol = new Solution();
+        test = sol.solution(A);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+    }
+
 }

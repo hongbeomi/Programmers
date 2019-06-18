@@ -3,7 +3,7 @@ package level2.백이십사나라의숫자;
 public class Solution {
 
     public String solution(int n) {
-        String answer = "";
+        StringBuilder answer = new StringBuilder();
 
         int[] arr = {4, 1, 2};
         int a;
@@ -14,9 +14,9 @@ public class Solution {
             if (a == 0) {
                 n -= 1;
             }
-            answer = arr[a] + answer;
+            answer.insert(0, arr[a]);
         }
-        return answer;
+        return answer.toString();
 
     }
 

@@ -20,4 +20,30 @@ public class SolutionTest {
 
         Assert.assertThat(answer, CoreMatchers.is(test));
     }
+
+    @Test
+    public void solution1() {
+        int a = 2;
+        int b = 5;
+        long test;
+        long answer = 14;
+
+        Solution sol = new Solution();
+        test = sol.solution(a, b);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+    }
+
+    @Test
+    public void solution2() {
+        int a = 2;
+        int b = 2;
+        long test;
+        long answer = 2;
+
+        Solution sol = new Solution();
+        test = sol.solution(a, b);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+    }
 }

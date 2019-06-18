@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class Solution {
 
     public int solution(int[] nums) {
-        int answer = 0;
+        int answer;
         HashSet<Integer> set = new HashSet<>();
         int length = nums.length;
         int choiceSize = length/2;

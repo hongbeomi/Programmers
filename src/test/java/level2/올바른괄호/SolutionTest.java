@@ -20,4 +20,31 @@ public class SolutionTest {
         Assert.assertThat(answer, CoreMatchers.is(test));
 
     }
+
+    @Test
+    public void solution1() {
+        String s = "()()()()(";
+        boolean test;
+        boolean answer = false;
+
+        Solution sol = new Solution();
+        test = sol.solution(s);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+
+    }
+
+    @Test
+    public void solution2() {
+        String s = ")";
+        boolean test;
+        boolean answer = false;
+
+        Solution sol = new Solution();
+        test = sol.solution(s);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+
+    }
+
 }

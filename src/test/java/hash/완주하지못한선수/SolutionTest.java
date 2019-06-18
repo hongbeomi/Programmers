@@ -20,4 +20,18 @@ public class SolutionTest {
 
         Assert.assertThat(answer, CoreMatchers.is(test));
     }
+
+    @Test
+    public void solution1() {
+        String[] participant = { "a", "b", "c", "d", "a" };
+        String[] complition = { "a", "b", "c" };
+        String test;
+        String answer = "d";
+
+        Solution sol = new Solution();
+        test = sol.solution(participant, complition);
+
+        Assert.assertThat(answer, CoreMatchers.is(test));
+    }
+
 }
