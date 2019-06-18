@@ -8,21 +8,19 @@ class Solution {
 
         HashMap<String, Integer> partMap = new HashMap<>();
 
-        for (int i = 0; i < participant.length ; i++) {
-            if(partMap.containsKey(participant[i])){
-                partMap.replace(participant[i], partMap.get(participant[i])+1 );
-            }
-            else {
-                partMap.put(participant[i],1);
+        for (String s : participant) {
+            if (partMap.containsKey(s)) {
+                partMap.replace(s, partMap.get(s) + 1);
+            } else {
+                partMap.put(s, 1);
             }
         }
 
-        for (int i = 0; i < completion.length ; i++) {
-            if(partMap.get(completion[i]) > 1){
-                partMap.replace(completion[i], partMap.get(completion[i])-1);
-            }
-            else {
-                partMap.remove(completion[i]);
+        for (String s : completion) {
+            if (partMap.get(s) > 1) {
+                partMap.replace(s, partMap.get(s) - 1);
+            } else {
+                partMap.remove(s);
             }
         }
 

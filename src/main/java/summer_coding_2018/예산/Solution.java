@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Solution {
+
     public int solution(int[] d, int budget) {
         int answer = 0;
         ArrayList<Integer> arrayList = new ArrayList<>();
@@ -22,4 +23,5 @@ public class Solution {
         }
         return answer;
     }
+
 }
