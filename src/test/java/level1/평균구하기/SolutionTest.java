@@ -1,4 +1,4 @@
-package level1.행렬의덧셈;
+package level1.평균구하기;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
@@ -10,15 +10,13 @@ public class SolutionTest {
 
     @Test
     public void solution() {
-        int[][] A = { {1}, {3} };
-        int[][] B = { {2}, {4} };
-        int[][] D = {{3}, {7}};
-        int[][] C;
 
+        int[] array = {1, 2, 3, 4, 5};
+        double answer = 3.0;
+        double s;
         Solution sol = new Solution();
-        C = sol.solution(A,B);
+        s = sol.solution(array);
 
-        Assert.assertThat(C, CoreMatchers.is(D));
+        Assert.assertThat(answer , CoreMatchers.is(s));
     }
-
 }
