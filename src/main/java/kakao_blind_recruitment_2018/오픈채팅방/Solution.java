@@ -21,7 +21,6 @@ public class Solution {
             }
             if (splitString[0].equals("Change")) {
                 mapOfIdName.put(splitString[1], splitString[2]);
-                continue;
             }
         }
 
