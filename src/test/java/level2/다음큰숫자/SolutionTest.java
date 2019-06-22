@@ -9,10 +9,10 @@ public class SolutionTest {
 
   @Test
   public void solution() {
-    int n = 15;
+    int n = 78;
     Solution sol = new Solution();
 
-    Assert.assertEquals(23 , sol.solution(n));
+    Assert.assertEquals(83 , sol.solution(n));
 
   }
 }
