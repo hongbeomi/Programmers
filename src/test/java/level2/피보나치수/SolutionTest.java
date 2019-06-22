@@ -12,8 +12,7 @@ public class SolutionTest {
     int n = 5;
 
     Solution sol = new Solution();
-
     Assert.assertEquals(5, sol.solution(n));
-
   }
+
 }
