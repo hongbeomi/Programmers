@@ -12,7 +12,7 @@ public class SolutionTest {
   public void solution() {
     int[][] A = {{1, 2}, {1, 2}};
     int[][] B = {{3, 4}, {3, 4}};
-    int[][] answer = {{11}, {11}};
+    int[][] answer = {{9, 12}, {9 ,12}};
 
     Solution sol = new Solution();
 
