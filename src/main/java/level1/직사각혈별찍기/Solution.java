@@ -1,7 +1,5 @@
 package level1.직사각혈별찍기;
 
-import java.util.Scanner;
-
 public class Solution {
 
     public String[][] main(int a, int b) {
