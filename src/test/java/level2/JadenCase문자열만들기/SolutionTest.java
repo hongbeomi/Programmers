@@ -13,7 +13,6 @@ public class SolutionTest {
     String answer = "3people Unfollowed Me";
 
     Solution sol = new Solution();
-
     Assert.assertEquals(answer, sol.solution(s));
   }
 
