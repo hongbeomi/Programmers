@@ -4,17 +4,18 @@ import java.util.Scanner;
 
 public class Solution {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+    public String[][] main(int a, int b) {
+        String[][] str = new String[a][b];
 
-        for (int i = 0 ; i < b ; i ++) {
-            for (int j = 0 ; j < a ; j++){
+        for (int i = 0 ; i < a ; i ++) {
+
+            for (int j = 0 ; j < b ; j++){
                 System.out.print("*");
+                str[i][j] = "*";
             }
             System.out.println();
         }
+        return str;
     }
 
 }
