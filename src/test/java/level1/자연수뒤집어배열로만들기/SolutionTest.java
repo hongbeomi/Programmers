@@ -17,4 +17,5 @@ public class SolutionTest {
     Assert.assertArrayEquals(answer, sol.solution(n));
 
   }
+
 }
