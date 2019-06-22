@@ -9,12 +9,12 @@ public class SolutionTest {
 
   @Test
   public void solution() {
-    int[] A = {1, 4, 2};
-    int[] B = {5, 4, 4};
+    int[] A = {1, 2};
+    int[] B = {3, 4};
 
     Solution sol = new Solution();
 
-    Assert.assertEquals(29, sol.solution(A, B));
+    Assert.assertEquals(10, sol.solution(A, B));
   }
 
 }
