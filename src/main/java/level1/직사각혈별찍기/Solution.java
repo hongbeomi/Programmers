@@ -2,7 +2,7 @@ package level1.직사각혈별찍기;
 
 public class Solution {
 
-    public String[][] main(int a, int b) {
+    String[][] main(int a, int b) {
         String[][] str = new String[a][b];
 
         for (int i = 0 ; i < a ; i ++) {
