@@ -1,7 +1,7 @@
 # Programmers
 > 프로그래머스 문제 풀이 저장소입니다.
 
-![GitHub top language](https://img.shields.io/github/languages/top/hongbeomi/Programmers.svg?color=orange&logo=java)  ![build](https://travis-ci.org/hongbeomi/Programmers.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/hongbeomi/Programmers/badge.svg?branch=master)](https://coveralls.io/github/hongbeomi/Programmers?branch=master) ![GitHub last commit](https://img.shields.io/github/last-commit/hongbeomi/Programmers.svg?color=red)
+![GitHub top language](https://img.shields.io/github/languages/top/hongbeomi/Programmers.svg?color=darkgreen&logo=java)  ![build](https://travis-ci.org/hongbeomi/Programmers.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/hongbeomi/Programmers/badge.svg?branch=master)](https://coveralls.io/github/hongbeomi/Programmers?branch=master) ![GitHub last commit](https://img.shields.io/github/last-commit/hongbeomi/Programmers.svg?color=lime)
 
 ## Contents
 
@@ -18,4 +18,3 @@
 * [(2017년) Summer Coding](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/summer_coding_2017)
 * [(2018년) Winter Coding](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/winter_coding_2018)
 * [(2017년) TipsTown](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/tipstown_2017)
-
