@@ -15,6 +15,6 @@ public class SolutionTest {
 
     Assert.assertEquals(4, sol.solution(nums));
 
-
   }
+
 }
