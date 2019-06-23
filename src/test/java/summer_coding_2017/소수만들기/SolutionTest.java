@@ -9,11 +9,11 @@ public class SolutionTest {
 
   @Test
   public void solution() {
-    int[] nums = {1, 2, 3, 4};
+    int[] nums = {1, 2, 7, 6, 4};
 
     Solution sol = new Solution();
 
-    Assert.assertEquals(1, sol.solution(nums));
+    Assert.assertEquals(4, sol.solution(nums));
 
 
   }
