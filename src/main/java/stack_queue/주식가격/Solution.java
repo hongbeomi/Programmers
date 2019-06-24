@@ -23,7 +23,7 @@ public class Solution {
     return answer;
   }
 
-  public int[] solution1(int[] prices) { // 시간 복잡도 O(2n)의 방법
+  public int[] solution_queue(int[] prices) { // 시간 복잡도 O(n)의 방법
     int[] answer = new int[prices.length];
     LinkedList<Integer> queue = new LinkedList<>();
     int count = 0;

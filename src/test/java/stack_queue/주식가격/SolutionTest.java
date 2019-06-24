@@ -20,8 +20,11 @@ public class SolutionTest {
 
   @Test
   public void solution1() {
+    int[] prices = {1, 2, 3, 2, 3};
+    int[] answer = {4, 3, 1, 1, 0};
 
-
+    Solution sol = new Solution();
+    Assert.assertThat(answer, CoreMatchers.is(sol.solution_queue(prices)));
 
   }
 
