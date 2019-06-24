@@ -1,5 +1,6 @@
 package stack_queue.기능개발;
 
+import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class SolutionTest {
     int[] answer = {2, 1};
 
     Solution sol = new Solution();
-    Assert.assertEquals(answer, sol.solution(progresses, speeds));
+    Assert.assertThat(answer, CoreMatchers.is(sol.solution(progresses, speeds)));
   }
 
 }
