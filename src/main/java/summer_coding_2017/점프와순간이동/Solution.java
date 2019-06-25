@@ -1,4 +1,4 @@
-package summer_coding_2017.소수만들기.summer_coding_2017.점프와순간이동;
+package summer_coding_2017.점프와순간이동;
 
 public class Solution {
 
