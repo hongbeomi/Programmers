@@ -11,6 +11,7 @@
 * [해시 알고리즘](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/hash)
 * [정렬 알고리즘](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/sorting)
 * [스택/큐 알고리즘](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/stack_queue)
+* [힙 알고리즘](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/heap)
 * [Programming Maester](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/programmingMaster)
 * [(2018년) KAKAO BLIND RECRUITMENT](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/kakao_blind_recruitment_2018)
 * [(2017년) KAKAO BLIND RECRUITMENT](https://github.com/hongbeomi/Programmers/tree/master/src/main/java/kakao_blind_recruitment_2017)
