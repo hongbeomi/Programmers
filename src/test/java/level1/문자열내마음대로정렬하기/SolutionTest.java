@@ -38,10 +38,10 @@ public class SolutionTest {
 
     @Test
     public void solution2() {
-        String[] strs = { "abcd", "abcd"};
-        int n = 1;
+        String[] strs = { "a"};
+        int n = 0;
         String[] test;
-        String[] answer = { "abcd", "abcd" };
+        String[] answer = { "a" };
 
         Solution sol = new Solution();
         test = sol.solution(strs, n);
