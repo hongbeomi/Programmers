@@ -18,4 +18,5 @@ public class SolutionTest {
 
     Assert.assertThat(answer , CoreMatchers.is(sol.solution(n, word)));
   }
+
 }
