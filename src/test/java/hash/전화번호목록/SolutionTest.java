@@ -1,6 +1,5 @@
 package hash.전화번호목록;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -15,4 +14,5 @@ public class SolutionTest {
 
     assertFalse(sol.solution(phone_book));
   }
+
 }
