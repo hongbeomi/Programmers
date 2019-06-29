@@ -15,7 +15,6 @@ public class SolutionTest {
 
     Solution sol = new Solution();
     Assert.assertThat(new int[]{3, 3}, CoreMatchers.is(sol.solution(brown, red)));
-
   }
 
   @Test
@@ -25,7 +24,6 @@ public class SolutionTest {
 
     Solution sol = new Solution();
     Assert.assertThat(new int[]{4, 3}, CoreMatchers.is(sol.solution(brown, red)));
-
   }
 
 }
