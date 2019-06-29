@@ -3,8 +3,6 @@ package heap.라면공장;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
   @Test
