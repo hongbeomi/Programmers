@@ -11,7 +11,6 @@ public class SolutionTest {
 
     Solution sol = new Solution();
     Assert.assertEquals(2, sol.solution(index));
-
   }
 
 }
