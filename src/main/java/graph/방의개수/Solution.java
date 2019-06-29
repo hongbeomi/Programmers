@@ -27,7 +27,6 @@ public class Solution {
         String point = "(" + x + "," + y + ")";
         String startLine = start + "," + point;
         String backLine = point + "," + start;
-        System.out.println(startLine + "     " + backLine);
         if (pointSet.contains(point)) {
           if (!lineSet.contains(startLine)) {
             answer++;
