@@ -15,4 +15,5 @@ public class SolutionTest {
 
     Assert.assertEquals(16, sol.solution(land));
   }
+
 }
