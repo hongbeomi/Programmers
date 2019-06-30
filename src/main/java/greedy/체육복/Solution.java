@@ -1,70 +1,39 @@
 package greedy.체육복;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 class Solution {
+        public int solution(int n, int[] lost, int[] reserve) {
+            int answer = n - lost.length;
+            ArrayList<Integer> lostList = new ArrayList<>();
+            ArrayList<Integer> reserveList = new ArrayList<>();
 
-    int solution(int n, int[] lost, int[] reserve) {
-        int answer = 0;
+            for (int i : lost) lostList.add(i);
+            for (int i : reserve) reserveList.add(i);
 
-        int[] lostStudent = new int[n+1];
-        int[] reserveStudent = new int[n+1];
-
-        Arrays.fill(lostStudent,0);
-        Arrays.fill(reserveStudent,0);
-        for (int i : lost) lostStudent[i] = 1;
-        for (int i : reserve) reserveStudent[i] = 1;
-
-        for ( int i = 1 ; i <= n ; i++){
-            if(lostStudent[i] == 0) answer++;
-            else{
-                if(i == 1){
-                    if(reserveStudent[1] == 1){
-                        reserveStudent[1]--;
+            for(int i = 0; i < lostList.size(); i++) {
+                for(int j = 0; j < reserveList.size(); j++) {
+                    if(lostList.get(i).equals(reserveList.get(j))) {
+                        lostList.remove(i);
+                        reserveList.remove(j);
+                        i--;
                         answer++;
-                    }
-                    else if(reserveStudent[2] == 1){
-                        if(lostStudent[2]==0){
-                            reserveStudent[2]--;
-                            answer++;
-                        }
+                        break;
                     }
                 }
-
-                else if (i == n){
-                    if(reserveStudent[n] == 1){
-                        reserveStudent[n]--;
-                        answer++;
-                    }
-                    else if(reserveStudent[n-1] == 1){
-                        if(lostStudent[n-1] == 0){
-                            reserveStudent[n-1]--;
-                            answer++;
-                        }
-                    }
-                }
-
-                else {
-                    if(reserveStudent[i] == 1){
-                        reserveStudent[i]--;
-                        answer++;
-                    }
-                    else if(reserveStudent[i-1] == 1){
-                        reserveStudent[i-1]--;
-                        answer++;
-                    }
-                    else if(reserveStudent[i+1] == 1){
-                        if(lostStudent[i+1] == 0){
-                            reserveStudent[i+1]--;
-                            answer++;
-                        }
-                    }
-                }
-
             }
-        }
 
-        return answer;
-    }
+            for (int lostNum : lostList) {
+                for (int j = 0; j < reserveList.size(); j++) {
+                    int reserveNum = reserveList.get(j);
+                    if (lostNum == reserveNum - 1 || lostNum == reserveNum + 1) {
+                        reserveList.remove(j);
+                        answer++;
+                        break;
+                    }
+                }
+            }
+            return answer;
+        }
 
 }

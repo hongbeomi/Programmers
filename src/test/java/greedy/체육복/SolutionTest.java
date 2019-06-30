@@ -52,11 +52,11 @@ public class SolutionTest {
 
     @Test
     public void solution3() {
-        int n = 2;
-        int[] lost = { 2 };
-        int[] reserve = {  1 };
+        int n = 5;
+        int[] lost = { 1, 3 };
+        int[] reserve = {  2, 3 };
         int test;
-        int answer = 2;
+        int answer = 5;
 
         Solution sol = new Solution();
         test = sol.solution(n, lost, reserve);
