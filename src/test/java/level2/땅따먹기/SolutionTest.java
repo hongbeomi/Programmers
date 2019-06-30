@@ -3,8 +3,6 @@ package level2.땅따먹기;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SolutionTest {
 
   @Test
