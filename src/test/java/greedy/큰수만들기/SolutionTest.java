@@ -3,6 +3,9 @@ package greedy.큰수만들기;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class SolutionTest {

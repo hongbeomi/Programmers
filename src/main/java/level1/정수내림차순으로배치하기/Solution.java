@@ -4,6 +4,8 @@ import java.util.stream.Stream;
 
 public class Solution {
 
+//    String res = "";
+
     public long solution(long n) {
         long answer = 0;
         long[] digit;
@@ -21,11 +23,17 @@ public class Solution {
             }
         }
 
-        for (int i = 0; i < digit.length; i++) {
-            str += String.valueOf(digit[i]);
+        for (long l : digit) {
+            str += String.valueOf(l);
         }
 
         answer = Long.valueOf(str);
+
         return answer;
+
+//        res = "";
+//        Long.toString(n).chars().sorted().forEach(c -> res = (char) c +res);
+//        return answer = Long.parseLong(res);
+//        람다로 3줄 만에 풀기
     }
 }
