@@ -16,4 +16,5 @@ public class SolutionTest {
     Assert.assertEquals("94", sol.solution(number, k));
 
   }
+
 }
