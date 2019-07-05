@@ -14,7 +14,7 @@ public class SolutionTest {
   }
 
   public void solution1() {
-    int num = 626331;
+    int num = 6263310;
 
     Solution sol = new Solution();
     Assert.assertEquals(-1, sol.solution(num));
