@@ -42,7 +42,6 @@ public class Solution {
       for (int i = 0; i < number.length(); i++) {
         recursive(s, number.substring(0, i) + number.substring(i + 1));
       }
-
     }
   }
 
