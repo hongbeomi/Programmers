@@ -13,6 +13,7 @@ public class SolutionTest {
 
     Solution sol = new Solution();
     Assert.assertEquals(9, sol.solution(board));
+
   }
 
 }
