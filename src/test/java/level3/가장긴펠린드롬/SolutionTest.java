@@ -10,8 +10,8 @@ public class SolutionTest {
   @Test
   public void solution() {
     String s = "abcbbca";
-
     Solution sol = new Solution();
+
     Assert.assertEquals(4, sol.solution(s));
   }
 
