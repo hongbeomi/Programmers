@@ -32,12 +32,4 @@ public class Solution {
     return answer;
   }
 
-  public static void main(String[] args) {
-    int n = 4;
-    int[] works = {4, 3, 3};
-    Solution sol = new Solution();
-
-    sol.solution(n, works);
-  }
-
 }

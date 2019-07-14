@@ -3,24 +3,16 @@ package level1.콜라츠추측;
 public class Solution {
 
   public int solution(int num) {
-    int answer = 0;
-    long number = num;
+    long n = (long) num;
 
-    while (number != 1) {
-      if (number % 2 == 0) {
-        number = number / 2;
-      } else {
-        number = (number * 3) + 1;
+    for (int i = 0; i < 500; i++) {
+      if (n == 1) {
+        return i;
       }
-      answer++;
-
-      if (answer == 500) {
-        answer = -1;
-        break;
-      }
+      n = (n % 2 == 0) ? n / 2 : n * 3 + 1;
     }
 
-    return answer;
+    return -1;
   }
 
 }

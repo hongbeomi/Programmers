@@ -13,8 +13,9 @@ public class SolutionTest {
     Assert.assertEquals(8, sol.solution(num));
   }
 
+  @Test
   public void solution1() {
-    int num = 6263310;
+    int num = 626331;
 
     Solution sol = new Solution();
     Assert.assertEquals(-1, sol.solution(num));
