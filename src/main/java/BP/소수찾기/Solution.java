@@ -33,6 +33,7 @@ public class Solution {
         treeSet.add(Integer.parseInt(s));
 
     } else {
+
       for (int i = 0; i < number.length(); i++) {
         recursive(s + number.charAt(i), number.substring(0, i) +
             number.substring(i + 1));
