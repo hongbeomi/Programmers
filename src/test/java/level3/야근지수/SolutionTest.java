@@ -24,4 +24,5 @@ public class SolutionTest {
     Solution sol = new Solution();
     Assert.assertEquals(0, sol.solution(n, works));
   }
+
 }
