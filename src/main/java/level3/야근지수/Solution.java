@@ -5,9 +5,10 @@ import java.util.PriorityQueue;
 
 public class Solution {
 
-  public long solution(int n, int[] works) { // sort를 쓰면 시간초과가 나와서 우선순위 큐 사용
+  public long solution(int n, int[] works) {
     long answer = 0;
     PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
+    // sort를 쓰면 시간초과가 나와서 우선순위 큐 사용
 
     for (int work : works) {
       queue.add(work);
