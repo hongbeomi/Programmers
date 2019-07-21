@@ -1,5 +1,6 @@
 package kakao_blind_recuitment_2018.실패율;
 
+import kakao_blind_recruitment_2018.실패율.Solution;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;

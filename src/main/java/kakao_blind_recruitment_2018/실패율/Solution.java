@@ -1,4 +1,4 @@
-package kakao_blind_recuitment_2018.실패율;
+package kakao_blind_recruitment_2018.실패율;
 
 import java.util.*;
 
