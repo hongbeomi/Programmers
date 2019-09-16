@@ -17,6 +17,7 @@ public class Solution {
         .flatMap(Arrays::stream)
         .filter(b -> b.equalsIgnoreCase("y"))
         .count();
+
     return countP == countY;
   }
 
