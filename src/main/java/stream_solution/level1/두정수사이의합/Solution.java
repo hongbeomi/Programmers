@@ -8,7 +8,6 @@ public class Solution {
     if(a == b){
       return b;
     }
-
     return LongStream
         .rangeClosed(Math.min(a, b), Math.max(a, b))
         .sum();
