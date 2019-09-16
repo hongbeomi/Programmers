@@ -8,10 +8,10 @@ class Solution {
         List<Integer> list = new ArrayList<>();
         int temp = -1;
 
-        for(int i=0 ; i < arr.length ; i++) {
-            if(temp != arr[i])
-                list.add(arr[i]);
-            temp = arr[i];
+        for (int value : arr) {
+            if (temp != value)
+                list.add(value);
+            temp = value;
         }
 
         int[] answer = new int[list.size()];
