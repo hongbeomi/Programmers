@@ -1,5 +1,8 @@
 package level1.x만큼간격이있는n개의숫자;
 
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
+
 public class Solution {
 
     public long[] solution(int x, int n) {
