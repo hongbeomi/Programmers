@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.stream.Collectors;
 
-public class Solution {
+public class Solution{
 
   public String solution(String s) {
     return Arrays.stream(s.split(""))
