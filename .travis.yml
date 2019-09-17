@@ -12,23 +12,23 @@ matrix:
       jdk: oraclejdk8
     - env: JDK='OpenJDK 8'
       jdk: openjdk8
-# 9
-    - env: JDK='Oracle JDK 9'
-      jdk: oraclejdk9
-    - env: JDK='OpenJDK 9'
-      install: . ./install-jdk.sh -F 9
-# 10
-    - env: JDK='Oracle JDK 10'
-      jdk: oraclejdk10
-    - env: JDK='OpenJDK 10'
-      install: . ./install-jdk.sh -F 10 -L GPL
-# 11
-    - env: JDK='Oracle JDK 11'
-      install: . ./install-jdk.sh -F 11 -L BCL
-    - env: JDK='OpenJDK 11'
-      install: . ./install-jdk.sh -F 11 -L GPL
-  allow_failures:
-    - env: JDK='Oracle JDK 11'
+# # 9
+#     - env: JDK='Oracle JDK 9'
+#       jdk: oraclejdk9
+#     - env: JDK='OpenJDK 9'
+#       install: . ./install-jdk.sh -F 9
+# # 10
+#     - env: JDK='Oracle JDK 10'
+#       jdk: oraclejdk10
+#     - env: JDK='OpenJDK 10'
+#       install: . ./install-jdk.sh -F 10 -L GPL
+# # 11
+#     - env: JDK='Oracle JDK 11'
+#       install: . ./install-jdk.sh -F 11 -L BCL
+#     - env: JDK='OpenJDK 11'
+#       install: . ./install-jdk.sh -F 11 -L GPL
+#   allow_failures:
+#     - env: JDK='Oracle JDK 11'
 # would just use default install/script but the ./mvnw script errors on travis
 # obviously this only works for maven builds right now...
 install:
