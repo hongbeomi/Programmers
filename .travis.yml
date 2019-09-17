@@ -4,7 +4,6 @@ language: java
 
 before_install:
   - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 matrix:
   include:
@@ -32,6 +31,9 @@ matrix:
     - env: JDK='Oracle JDK 11'
 # would just use default install/script but the ./mvnw script errors on travis
 # obviously this only works for maven builds right now...
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
 script:
 - mvn test
 - echo PATH = ${PATH}
