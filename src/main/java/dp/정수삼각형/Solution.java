@@ -1,5 +1,7 @@
 package dp.정수삼각형;
 
+import java.util.Scanner;
+
 public class Solution {
 
   public int solution(int[][] triangle) {
