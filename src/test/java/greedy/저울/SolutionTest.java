@@ -11,6 +11,7 @@ public class SolutionTest {
   public void solution() {
     int[] weight = {3, 1, 6, 2, 7, 30, 1};
     Solution sol = new Solution();
+
     Assert.assertEquals(21, sol.solution(weight));
   }
 
