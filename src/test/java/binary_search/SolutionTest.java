@@ -12,7 +12,6 @@ public class SolutionTest {
     int[] budgets = { 120, 110, 140, 150 };
     int M = 485;
     Solution sol = new Solution();
-
     Assert.assertEquals(127, sol.solution(budgets, M));
   }
 
