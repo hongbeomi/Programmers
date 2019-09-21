@@ -23,4 +23,12 @@ public class SolutionTest {
     Assert.assertEquals(42, sol.solution(N));
   }
 
+  @Test
+  public void solution2() {
+    int N = 1;
+    Solution sol = new Solution();
+
+    Assert.assertEquals(4, sol.solution(N));
+  }
+
 }
