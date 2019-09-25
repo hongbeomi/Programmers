@@ -13,7 +13,6 @@ public class SolutionTest {
         "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "NewYork"
     };
     int cacheSize = 3;
-
     Solution sol = new Solution();
     Assert.assertEquals(26, sol.solution(cacheSize, cities));
   }
