@@ -13,7 +13,6 @@ public class SolutionTest {
         {0, 1, 1}, {0, 2, 2}, {1, 2, 5}, {1, 3, 1}, {2, 3, 8}
     };
     int n = 4;
-
     Solution sol = new Solution();
     Assert.assertEquals(4, sol.solution(n, costs));
   }
